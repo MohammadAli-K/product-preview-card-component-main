@@ -18,7 +18,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Black: hsl(212, 21%, 14%)
+- Black: hsl(212, 21.10%, 13.90%)
 - Grey: hsl(228, 12%, 48%)
 - Cream: hsl(30, 38%, 92%)
 - White: hsl(0, 0%, 100%)
@@ -34,7 +34,7 @@ The designs were created to the following widths:
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Family: [Fraunces](https:/ /fonts.google.com/specimen/Fraunces)
 - Weights: 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
