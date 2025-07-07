@@ -27,9 +27,13 @@ body {
 }
 
 .card {
-  width: 40%;
-  min-width: 35rem;
-  margin: 100px auto;
+  width: 35rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   background: #fff;
   border-radius: 5px;
 }
@@ -38,6 +42,7 @@ body {
   content: "Perfume";
   text-transform: uppercase;
   letter-spacing: 6px;
+  margin-top: 10px;
 }
 
 .container {
@@ -58,13 +63,16 @@ body {
   font-family: "Fraunces", sans-serif;
   color: hsl(212, 21.1%, 13.9%);
   font-size: 2rem;
+  line-height: 1.1;
 }
 
 .card__description {
+  width: 100%;
   line-height: 1.6;
 }
 
 .card__text {
+  width: 100%;
   padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
@@ -87,6 +95,8 @@ body {
 .btn {
   background: var(--primary-color);
   color: #fff;
+  font-size: 1rem;
+
   padding: 1rem 2rem;
   text-align: center;
   border-radius: 5px;
@@ -99,4 +109,25 @@ body {
 
 .btn img {
   margin-right: 1rem;
+}
+
+@media (max-width: 375px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 20rem;
+    height: 45rem;
+  }
+
+  .card__text {
+    font-size: 0.9rem;
+    gap: 1rem;
+    height: 20rem;
+  }
+
+  .card__image {
+    height: 20rem;
+  }
 }
